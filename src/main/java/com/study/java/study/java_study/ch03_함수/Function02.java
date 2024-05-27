@@ -15,8 +15,14 @@ public class Function02 {
 
     }
 
+    // 매개변수 o, 리턴 x
     String 빙수_만들기 (String 재료, int count) {
         return 재료 + "빙수: " + count + "개 " ;
+    }
+
+    // 매개변수 x, 리턴 x
+    String getData() {
+        return "데이터";
     }
 
 }
