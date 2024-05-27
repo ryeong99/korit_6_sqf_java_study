@@ -15,8 +15,8 @@ public class StudentMain {
         //
         // Student[] students1 = new Student[] {
         //        new Student(20240501, "김준일", 31),
-        //        new Student(20240502, "김준일", 31),
-        //        new Student(20240503, "김준일", 31)
+        //        new Student(20240502, "김준이", 32),
+        //        new Student(20240503, "김준삼", 33)
         // };
 
         String name = students[0].getName();

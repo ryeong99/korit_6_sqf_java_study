@@ -41,6 +41,9 @@ public class ColorMain {
             color.printInfo();
         }
 
+        System.out.println("-----------------------------");
+        System.out.println();
+
         for (Color color : colors) {
             color.setCode(null);
             color.setName(null);

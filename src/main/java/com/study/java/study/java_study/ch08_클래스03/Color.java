@@ -6,6 +6,9 @@ public class Color {
 
 
     // AllArgscontructor
+    // =         this.code = code;
+    // =         this.name = name;
+
     // geter and seter
 
     public Color(String code, String name) {
