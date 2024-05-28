@@ -48,9 +48,10 @@ public class ColorMain {
             color.setCode(null);
             color.setName(null);
         }
-        for (int i = 0; i < colors.length; i++) {
-            colors[i].printInfo();
-        }
+//        for (int i = 0; i < colors.length; i++) {
+//            colors[i].printInfo();
+//       }
+
         for (Color color : colors) {
             color.printInfo();
         }
