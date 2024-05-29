@@ -1,4 +1,4 @@
-package com.study.java.study.java_study.ch09_클래스04;
+package com.study.java.study.java_study.ddd;
 
 import java.util.Scanner;
 

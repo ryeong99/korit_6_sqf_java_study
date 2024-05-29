@@ -1,4 +1,4 @@
-package com.study.java.study.java_study.ch09_클래스04;
+package com.study.java.study.java_study.ddd;
 
 public class BookRepository {
 
@@ -114,7 +114,7 @@ public class BookRepository {
             return newArraySize;
         }
         // ## 5
-        public BookEntity[] searchBooks(int option,String searchText) {
+        public BookEntity[] searchBooks(int option, String searchText) {
             int newArraySize = getNewArraySize(option, searchText);  // 새로운 배열을 만들기 위해 사용
         // 다건조회
             BookEntity[] searchBooks = new BookEntity[newArraySize];
