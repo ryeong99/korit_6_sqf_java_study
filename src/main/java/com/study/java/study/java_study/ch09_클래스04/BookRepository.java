@@ -1,5 +1,8 @@
 package com.study.java.study.java_study.ch09_클래스04;
 
+import java.sql.Array;
+import java.util.Arrays;
+
 public class BookRepository {
 
         private int bookId;
@@ -24,7 +27,7 @@ public class BookRepository {
             // 기존 배열의 정보를 새로운 배열로 모두 옮긴다. 이 때 마지막 인덱스의 값은 빈값이다.
             // 즉, 동기화
 
-            books = newBooks;
+            books = Arrays.copyOf(books, books.length +1);
             // 기존 배열의 주소가 들어있는 books 변수에 새로운 배열의 주소를 대입한다.
         }
 
