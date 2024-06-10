@@ -13,7 +13,7 @@ public class AdditionMain {
         int result = addition.add(10,20);
         System.out.println("결과: " + result);
 
-//      -------------------------------------------------
+//      ------------------------------------------------- 아래가 람다식
 
         Addition addition2 = (x , y) -> x + y;
         result = addition2.add(10,20);
